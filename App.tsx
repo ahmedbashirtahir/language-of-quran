@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './components/Header.tsx';
-import Hero from './components/Hero.tsx';
-import WhyVisual from './components/WhyVisual.tsx';
-import CourseShowcase from './components/CourseShowcase.tsx';
-import AboutInstructor from './components/AboutInstructor.tsx';
-import Testimonials from './components/Testimonials.tsx';
-import FreeResources from './components/FreeResources.tsx';
-import Enrollment from './components/Enrollment.tsx';
-import Footer from './components/Footer.tsx';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import WhyVisual from './components/WhyVisual';
+import CourseShowcase from './components/CourseShowcase';
+import AboutInstructor from './components/AboutInstructor';
+import Testimonials from './components/Testimonials';
+import FreeResources from './components/FreeResources';
+import Enrollment from './components/Enrollment';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
