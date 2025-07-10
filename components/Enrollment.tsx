@@ -14,7 +14,7 @@ const Enrollment: React.FC = () => {
               Our first courses are launching soon. Join the waitlist to get exclusive early access, special discounts, and updates.
             </p>
             {/* IMPORTANT: Replace YOUR_EMAIL@example.com with your actual email address. */}
-            <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST" className="mt-8 max-w-lg mx-auto">
+            <form action="https://formsubmit.co/ahmedbashirtahir@gmail.com" method="POST" className="mt-8 max-w-lg mx-auto">
               <div className="flex flex-col sm:flex-row gap-4">
                 <input
                   type="email"
