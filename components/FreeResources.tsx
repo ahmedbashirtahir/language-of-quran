@@ -11,7 +11,7 @@ const FreeResources: React.FC = () => {
               Get notified when the free chapter from our upcoming e-book, "Visual Vocabulary Vol. 1" is available. Experience firsthand how we make learning beautiful and effective.
             </p>
             {/* IMPORTANT: Replace YOUR_EMAIL@example.com with your actual email address. */}
-            <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST" className="w-full">
+            <form action="https://formsubmit.co/ahmedbashirtahir@gmail.com" method="POST" className="w-full">
               <div className="flex flex-col sm:flex-row gap-4">
                 <input
                   type="email"
