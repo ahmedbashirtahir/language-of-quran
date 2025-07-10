@@ -1,13 +1,6 @@
-
 import React from 'react';
 
 const Enrollment: React.FC = () => {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    alert('Thank you! You will be the first to know when we launch.');
-    e.currentTarget.reset();
-  };
-
   return (
     <section id="enroll" className="py-20 bg-white">
       <div className="container mx-auto px-6">
@@ -20,7 +13,8 @@ const Enrollment: React.FC = () => {
             <p className="text-lg text-indigo-200 mt-4 max-w-xl mx-auto">
               Our first courses are launching soon. Join the waitlist to get exclusive early access, special discounts, and updates.
             </p>
-            <form onSubmit={handleSubmit} className="mt-8 max-w-lg mx-auto">
+            {/* IMPORTANT: Replace YOUR_EMAIL@example.com with your actual email address. */}
+            <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST" className="mt-8 max-w-lg mx-auto">
               <div className="flex flex-col sm:flex-row gap-4">
                 <input
                   type="email"
@@ -38,6 +32,10 @@ const Enrollment: React.FC = () => {
                   Join Waitlist
                 </button>
               </div>
+              {/* This hidden field helps prevent spam */}
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+              {/* This hidden field sets the subject of the email you receive */}
+              <input type="hidden" name="_subject" value="New Waitlist Signup! - Visual Arabic Course" />
               <p className="text-sm mt-4 text-indigo-300">We respect your privacy. No spam, ever.</p>
             </form>
           </div>
